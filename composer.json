@@ -1,0 +1,17 @@
+{
+    "name": "abrha/app-salon_php_mvc_js_sass",
+    "description": "proyecto php8, mvc, sql, sass, gulp",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Abrha\\AppSalonPhpMvcJsSass\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "abraham55github",
+            "email": "155010549+abraham55github@users.noreply.github.com"
+        }
+    ],
+    "require": {}
+}
