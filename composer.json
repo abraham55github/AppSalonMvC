@@ -4,7 +4,10 @@
     "type": "project",
     "autoload": {
         "psr-4": {
-            "Abrha\\AppSalonPhpMvcJsSass\\": "src/"
+            "MVC\\": "./",
+            "Controllers\\": "./controllers",
+            "Model\\": "./models",
+            "Classes\\": "./classes"
         }
     },
     "authors": [
@@ -13,5 +16,7 @@
             "email": "155010549+abraham55github@users.noreply.github.com"
         }
     ],
-    "require": {}
+    "require": {
+        "phpmailer/phpmailer": "^6.9"
+    }
 }
