@@ -21,6 +21,7 @@ function iniciarApp(){
     botonesPaginador(); //agrega o quita los botones paginador
     paginaSiguiente();
     paginaAnterior();
+    
 
     consultarAPI(); //consulta la API en el backend de pHP
 
@@ -74,10 +75,12 @@ function botonesPaginador(){
 
     const paginaAnterior = document.querySelector('#anterior');
     const paginaSiguiente = document.querySelector('#siguiente');
+    const misCitas = document.querySelector('#citas');
 
     if(paso === 1){
         paginaAnterior.classList.add('ocultar');
         paginaSiguiente.classList.remove('ocultar');
+        
     }else if (paso === 3){
         paginaAnterior.classList.remove('ocultar');
         paginaSiguiente.classList.add('ocultar');
@@ -370,4 +373,3 @@ async function reservarCita(){
 
 
 }
-

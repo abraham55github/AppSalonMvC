@@ -73,7 +73,9 @@
             id="siguiente"
             class="boton"
         > Siguiente &raquo;</button>
+        
     </div>
+    
 
 </div>
 
